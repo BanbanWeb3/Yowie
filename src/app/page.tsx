@@ -39,7 +39,7 @@ export default function Home() {
         </Link>
       </header>
       <div className="w-full p-0 md:h-screen h-[320px] relative">
-        <Image src="/img/header1_1.webp" alt="header" fill />
+        <Image src="/img/header1_1.webp" alt="header" fill priority loading="eager" />
         <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-end items-center">
           <div className="flex flex-col justify-center items-center md:w-[650px] md:text-left text-center w-full pb-20 px-12 md:pt-0 pt-40">
             <h1 className="md:text-4xl text-xl font-bold">
@@ -50,7 +50,7 @@ export default function Home() {
         </div>
       </div>
       <div className="w-full p-0 md:h-screen h-[320px] relative">
-        <Image src="/img/header3_1.webp" alt="header" fill />
+        <Image src="/img/header3_1.webp" alt="header" fill priority loading="eager" />
         <div className="absolute top-0 md:right-48 right-0 md:w-[650px] w-56 mr-5 md:pr-0 h-full flex flex-col justify-center items-center">
           <h2 className="md:text-4xl text-xl font-bold">
             Born in the icy mountains, yowie is a piece of art with an infinite
@@ -59,7 +59,7 @@ export default function Home() {
         </div>
       </div>
       <div className="w-full p-0 md:h-screen h-[380px] relative md:pt-0 pt-40">
-        <Image src="/img/header2_1.webp" alt="header" fill />
+        <Image src="/img/header2_1.webp" alt="header" fill priority loading="eager" />
         <div className="absolute bottom-0 left-0 w-full h-full flex flex-col pb-20 justify-end items-center">
           <h3 className="md:text-4xl text-xl font-bold text-white">
             {"Icy but hot, it's yowie"}
