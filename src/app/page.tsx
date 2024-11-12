@@ -13,7 +13,9 @@ export default function Home() {
           rel="noopener noreferrer"
           className="hover:scale-110 transition-all duration-300"
         >
-          <Image src="/img/dexscreener.png" alt="logo" width={64} height={64} />
+          <div className="relative md:w-16 w-8">
+            <Image src="/img/dexscreener.png" alt="logo" width={64} height={64} />
+          </div>
         </Link>
         <Link
           href="https://t.me/yowieyowie"
@@ -21,7 +23,9 @@ export default function Home() {
           rel="noopener noreferrer"
           className="hover:scale-110 transition-all duration-300"
         >
-          <Image src="/img/telegram.png" alt="logo" width={64} height={64} />
+          <div className="relative md:w-16 w-8">
+            <Image src="/img/telegram.png" alt="logo" width={64} height={64} />
+          </div>
         </Link>
         <Link
           href="https://x.com/solyowie"
@@ -29,33 +33,35 @@ export default function Home() {
           rel="noopener noreferrer"
           className="hover:scale-110 transition-all duration-300"
         >
-          <Image src="/img/x.png" alt="logo" width={64} height={64} />
+          <div className="relative md:w-16 w-8">
+            <Image src="/img/x.png" alt="logo" width={64} height={64} />
+          </div>
         </Link>
       </header>
-      <div className="w-full p-0 h-screen relative">
+      <div className="w-full p-0 md:h-screen h-[320px] relative">
         <Image src="/img/header1.jpeg" alt="header" fill />
         <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-end items-center">
-          <div className="flex flex-col justify-center items-center w-[650px] pb-20">
-            <h1 className="text-4xl font-bold">
+          <div className="flex flex-col justify-center items-center md:w-[650px] md:text-left text-center w-full pb-20 px-12 md:pt-0 pt-40">
+            <h1 className="md:text-4xl text-xl font-bold">
               Born in the icy mountains, yowie is a piece of art with an
               infinite universe
             </h1>
           </div>
         </div>
       </div>
-      <div className="w-full p-0 h-screen relative">
+      <div className="w-full p-0 md:h-screen h-[320px] relative">
         <Image src="/img/header3.jpeg" alt="header" fill />
-        <div className="absolute top-0 right-48 w-[650px] h-full flex flex-col justify-center items-center">
-          <h2 className="text-4xl font-bold">
+        <div className="absolute top-0 md:right-48 right-0 md:w-[650px] w-56 mr-5 md:pr-0 h-full flex flex-col justify-center items-center">
+          <h2 className="md:text-4xl text-xl font-bold">
             Born in the icy mountains, yowie is a piece of art with an infinite
             universe
           </h2>
         </div>
       </div>
-      <div className="w-full p-0 h-screen relative">
+      <div className="w-full p-0 md:h-screen h-[380px] relative md:pt-0 pt-40">
         <Image src="/img/header2.jpeg" alt="header" fill />
         <div className="absolute bottom-0 left-0 w-full h-full flex flex-col pb-20 justify-end items-center">
-          <h3 className="text-4xl font-bold text-white">
+          <h3 className="md:text-4xl text-xl font-bold text-white">
             {"Icy but hot, it's yowie"}
           </h3>
         </div>
