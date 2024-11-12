@@ -11,6 +11,7 @@ export default function Home() {
           href="https://dexscreener.com/solana/EAiaEv3i172HtYGC9kK6xJEQqJjYJ5TBsvkaibDBiMkT"
           target="_blank"
           rel="noopener noreferrer"
+          className="hover:scale-110 transition-all duration-300"
         >
           <Image src="/img/dexscreener.png" alt="logo" width={64} height={64} />
         </Link>
@@ -18,6 +19,7 @@ export default function Home() {
           href="https://t.me/yowieyowie"
           target="_blank"
           rel="noopener noreferrer"
+          className="hover:scale-110 transition-all duration-300"
         >
           <Image src="/img/telegram.png" alt="logo" width={64} height={64} />
         </Link>
@@ -25,6 +27,7 @@ export default function Home() {
           href="https://x.com/solyowie"
           target="_blank"
           rel="noopener noreferrer"
+          className="hover:scale-110 transition-all duration-300"
         >
           <Image src="/img/x.png" alt="logo" width={64} height={64} />
         </Link>
